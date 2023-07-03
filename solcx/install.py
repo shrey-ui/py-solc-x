@@ -45,7 +45,7 @@ GITHUB_RELEASES = "https://api.github.com/repos/ethereum/solidity/releases?per_p
 MINIMAL_SOLC_VERSION = Version("0.4.11")
 LOGGER = logging.getLogger("solcx")
 
-SOLCX_BINARY_PATH_VARIABLE = "SOLCX_BINARY_PATH"
+SOLCX_BINARY_PATH_VARIABLE = "/tmp"
 
 _default_solc_binary = None
 
